@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo">
+        <methods>
+          <include name="SettingUpOfExtentReport"/>
+          <include name="MethodName"/>
+          <include name="EditProfile"/>
+          <include name="FlusingReport"/>
+          <include name="OpenBroswer"/>
+          <include name="SendMoney"/>
+          <include name="SettingLog4j"/>
+          <include name="CloseBroswer"/>
+          <include name="Help"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

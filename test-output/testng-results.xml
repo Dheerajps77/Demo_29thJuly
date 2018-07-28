@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47844" started-at="2018-07-28T20:24:47Z" finished-at="2018-07-28T20:25:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="47844" started-at="2018-07-28T20:24:47Z" finished-at="2018-07-28T20:25:35Z">
+      <class name="com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo">
+        <test-method status="PASS" signature="SettingUpOfExtentReport()[pri:0, instance:com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo@612679d6]" name="SettingUpOfExtentReport" is-config="true" duration-ms="188" started-at="2018-07-28T20:24:47Z" finished-at="2018-07-28T20:24:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingUpOfExtentReport -->
+        <test-method status="PASS" signature="SettingLog4j()[pri:0, instance:com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo@612679d6]" name="SettingLog4j" is-config="true" duration-ms="35" started-at="2018-07-28T20:24:47Z" finished-at="2018-07-28T20:24:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingLog4j -->
+        <test-method status="PASS" signature="OpenBroswer()[pri:0, instance:com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo@612679d6]" name="OpenBroswer" is-config="true" duration-ms="32363" started-at="2018-07-28T20:24:48Z" finished-at="2018-07-28T20:25:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBroswer -->
+        <test-method status="PASS" signature="MethodName(java.lang.reflect.Method)[pri:0, instance:com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo@612679d6]" name="MethodName" is-config="true" duration-ms="4" started-at="2018-07-28T20:25:20Z" finished-at="2018-07-28T20:25:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo.Login() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodName -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo@612679d6]" name="Login" duration-ms="7228" started-at="2018-07-28T20:25:20Z" finished-at="2018-07-28T20:25:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo@612679d6]" name="getResult" is-config="true" duration-ms="3" started-at="2018-07-28T20:25:27Z" finished-at="2018-07-28T20:25:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=ManchesterUnitedKingdom_LoginDemo.Login()[pri:0, instance:com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo@612679d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="MethodName(java.lang.reflect.Method)[pri:0, instance:com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo@612679d6]" name="MethodName" is-config="true" duration-ms="0" started-at="2018-07-28T20:25:27Z" finished-at="2018-07-28T20:25:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo.SendMoney()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodName -->
+        <test-method status="FAIL" signature="SendMoney()[pri:0, instance:com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo@612679d6]" name="SendMoney" duration-ms="8" started-at="2018-07-28T20:25:27Z" finished-at="2018-07-28T20:25:27Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo.SendMoney(ManchesterUnitedKingdom_LoginDemo.java:116)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendMoney -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo@612679d6]" name="getResult" is-config="true" duration-ms="7" started-at="2018-07-28T20:25:27Z" finished-at="2018-07-28T20:25:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SendMoney status=FAILURE method=ManchesterUnitedKingdom_LoginDemo.SendMoney()[pri:0, instance:com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo@612679d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="MethodName(java.lang.reflect.Method)[pri:0, instance:com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo@612679d6]" name="MethodName" is-config="true" duration-ms="1" started-at="2018-07-28T20:25:27Z" finished-at="2018-07-28T20:25:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo.EditProfile()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodName -->
+        <test-method status="FAIL" signature="EditProfile()[pri:1, instance:com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo@612679d6]" name="EditProfile" duration-ms="4" started-at="2018-07-28T20:25:27Z" finished-at="2018-07-28T20:25:27Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo.EditProfile(ManchesterUnitedKingdom_LoginDemo.java:123)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditProfile -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo@612679d6]" name="getResult" is-config="true" duration-ms="2" started-at="2018-07-28T20:25:27Z" finished-at="2018-07-28T20:25:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditProfile status=FAILURE method=ManchesterUnitedKingdom_LoginDemo.EditProfile()[pri:1, instance:com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo@612679d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="MethodName(java.lang.reflect.Method)[pri:0, instance:com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo@612679d6]" name="MethodName" is-config="true" duration-ms="1" started-at="2018-07-28T20:25:27Z" finished-at="2018-07-28T20:25:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo.Help()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodName -->
+        <test-method status="FAIL" signature="Help()[pri:2, instance:com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo@612679d6]" name="Help" duration-ms="1" started-at="2018-07-28T20:25:27Z" finished-at="2018-07-28T20:25:27Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo.Help(ManchesterUnitedKingdom_LoginDemo.java:129)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Help -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo@612679d6]" name="getResult" is-config="true" duration-ms="7" started-at="2018-07-28T20:25:27Z" finished-at="2018-07-28T20:25:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Help status=FAILURE method=ManchesterUnitedKingdom_LoginDemo.Help()[pri:2, instance:com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo@612679d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CloseBroswer()[pri:0, instance:com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo@612679d6]" name="CloseBroswer" is-config="true" duration-ms="8149" started-at="2018-07-28T20:25:27Z" finished-at="2018-07-28T20:25:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBroswer -->
+        <test-method status="PASS" signature="FlusingReport()[pri:0, instance:com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo@612679d6]" name="FlusingReport" is-config="true" duration-ms="433" started-at="2018-07-28T20:25:36Z" finished-at="2018-07-28T20:25:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlusingReport -->
+      </class> <!-- com.qa.Demo.ExtentAndLog4j.ManchesterUnitedKingdom_LoginDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
